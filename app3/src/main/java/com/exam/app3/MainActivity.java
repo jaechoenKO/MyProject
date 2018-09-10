@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setWhen(System.currentTimeMillis()); // 언제 알림을 하는지 정하는 메소드, currentTimeMillis는 시스템의 시간
         builder.setContentIntent(pendingIntent);
 
+
         // Notification.Builder를 사용했을 경우
         Notification notification = builder.build();
 
